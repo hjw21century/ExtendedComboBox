@@ -1,0 +1,2 @@
+#define MREGEX_API __declspec(dllexport)
+#define MREGEX_API __declspec(dllimport)

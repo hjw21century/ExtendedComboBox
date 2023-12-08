@@ -3,7 +3,7 @@
 //
 
 #pragma once
-#include "CExtendedComboBox.h"
+#include "ExtendedComboBox.h"
 
 // CExtendedComboBoxDlg 对话框
 class CExtendedComboBoxDlg : public CDialogEx

@@ -4,7 +4,7 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "ExtendedComboBox.h"
+#include "Resource.h"
 #include "ExtendedComboBoxDlg.h"
 #include "afxdialogex.h"
 
@@ -110,6 +110,12 @@ BOOL CExtendedComboBoxDlg::OnInitDialog()
 
 	m_extendedComboBox.SetItemEnabled(0, FALSE);
 	m_extendedComboBox.SetItemEnabled(1, FALSE);
+
+	std::vector<const char*> patterns;
+	std::vector<const char*> reservpatterns;
+
+	patterns.push_back("^Item\\d{2}$");
+	m_extendedComboBox.SetInputLimit(TRUE, patterns, reservpatterns);
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 

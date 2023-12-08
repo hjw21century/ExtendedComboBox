@@ -15,61 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ExtendedComboBox.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ExtendedComboBoxDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="framework.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
+    <ClInclude Include="mregex.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ExtendedComboBoxApp.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ExtendedEdit.h">
+    <ClInclude Include="mregexp.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ExtendedComboBox.cpp">
+    <ClCompile Include="mregex.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ExtendedComboBoxDlg.cpp">
+    <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ExtendedComboBoxApp.cpp">
+    <ClCompile Include="mregexp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ExtendedEdit.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="ExtendedComboBox.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\ExtendedComboBox.rc2">
-      <Filter>资源文件</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\ExtendedComboBox.ico">
-      <Filter>资源文件</Filter>
-    </Image>
   </ItemGroup>
 </Project>
